@@ -32,3 +32,4 @@ buka pada file **$PROFILE** diatas dan silahkan copy isinya, lalu simpan
 ## Konfigurasi setting CMD
 
 masuk pada setting.json pada cmd lalu copy file **setting** diatas, simpan semua dan refresh _powershell_
+setting bisa dilakukan di setting pada _powershell_ (ctrl+shift+,) dan pilih open JSON File

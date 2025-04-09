@@ -29,6 +29,12 @@ notepad $PROFILE
 
 buka pada file **$PROFILE** diatas dan silahkan copy isinya, lalu simpan
 
+Untuk reload $PROFILE ketikkan:
+
+```
+. $PROFILE
+```
+
 ## Konfigurasi setting CMD
 
 masuk pada setting.json pada cmd lalu copy file **setting** diatas, simpan semua dan refresh _powershell_

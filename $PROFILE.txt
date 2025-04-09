@@ -9,8 +9,8 @@ if ($host.Name -eq 'ConsoleHost')
 
 Import-Module -Name Terminal-Icons
 
-oh-my-posh init pwsh --config C:\Users\Rezal\AppData\Local\Programs\oh-my-posh\themes\catppuccin_mocha.omp.json | Invoke-Expression
-
+#CHANGE THEMES
+oh-my-posh init pwsh --config ~/catppuccin_mocha.omp.json | Invoke-Expression
 
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)
@@ -444,6 +444,9 @@ Set-PSReadLineKeyHandler -Key "Alt+'" `
             $replacement)
     }
 }
+
+#ALIASES
+
 
 # This example will replace any aliases on the command line with the resolved commands.
 Set-PSReadLineKeyHandler -Key "Alt+%" `

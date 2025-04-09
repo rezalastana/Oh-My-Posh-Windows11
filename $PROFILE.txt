@@ -10,7 +10,7 @@ if ($host.Name -eq 'ConsoleHost')
 Import-Module -Name Terminal-Icons
 
 #CHANGE THEMES
-oh-my-posh init pwsh --config ~/catppuccin_mocha.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/catppuccin_mocha.omp.json" | Invoke-Expression
 
 Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
     param($wordToComplete, $commandAst, $cursorPosition)

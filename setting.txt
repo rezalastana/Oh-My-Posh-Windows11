@@ -49,7 +49,7 @@
         },
         {
             "id": "Terminal.ClosePane",
-            "keys": "ctrl+w"
+            "keys": "alt+w"
         },
         {
             "id": null,
